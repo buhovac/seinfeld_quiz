@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "L1-C1-0001",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Kome Jerry često govori 'Hello, Newman'?",
+      "choices": ["Newmanu", "Krameru", "Georgeu", "Elaine"],
+      "correctIndex": 0,
+      "tags": ["characters", "catchphrase"]
+    },
+    {
+      "id": "L1-C1-0002",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Kako se zove Jerryjev susjed koji uvijek upada u stan bez kucanja?",
+      "choices": ["George", "Newman", "Cosmo Kramer", "Mickey"],
+      "correctIndex": 2,
+      "tags": ["characters"]
+    },
+    {
+      "id": "L1-C1-0003",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Koji je Georgeov omiljeni pseudonim koji često koristi?",
+      "choices": ["Art Vandelay", "Kel Varnsen", "H.E. Pennypacker", "Bob Sacamano"],
+      "correctIndex": 0,
+      "tags": ["characters", "alter-ego"]
+    },
+    {
+      "id": "L1-C1-0004",
+      "categoryId": 1,
+      "level": 1,
+      "question": "U kojem gradu se odvija radnja serije?",
+      "choices": ["Chicago", "Los Angeles", "New York City", "Boston"],
+      "correctIndex": 2,
+      "tags": ["setting"]
+    },
+    {
+      "id": "L1-C1-0005",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Kako se zove Georgeov otac?",
+      "choices": ["Morty", "Frank", "Leo", "Arthur"],
+      "correctIndex": 1,
+      "tags": ["characters", "family"]
+    },
+    {
+      "id": "L1-C1-0006",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Koji blagdan je izmislio Frank Costanza kao alternativu Božiću?",
+      "choices": ["Kwanzaa", "Spooktacular", "Festivus", "Costanzamas"],
+      "correctIndex": 2,
+      "tags": ["culture", "holiday"]
+    },
+    {
+      "id": "L1-C1-0007",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Što je Jerry po zanimanju?",
+      "choices": ["Pisac", "Stand-up komičar", "Glumac", "Poštar"],
+      "correctIndex": 1,
+      "tags": ["characters", "job"]
+    },
+    {
+      "id": "L1-C1-0008",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Kako se zove omiljeni restoran u kojem ekipa pije kavu?",
+      "choices": ["Monk's Diner", "Central Perk", "The Peach Pit", "Reggie's"],
+      "correctIndex": 0,
+      "tags": ["setting", "locations"]
+    },
+    {
+      "id": "L1-C1-0009",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Koji nadimak Elaine dobije zbog svog načina plesanja?",
+      "choices": ["The Shuffler", "Sweet Fancy Moses", "Little Kicks", "Dancing Queen"],
+      "correctIndex": 2,
+      "tags": ["characters", "episodes"]
+    },
+    {
+      "id": "L1-C1-0010",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Kako se zove poznati prodavač juha koji zabranjuje jelo onima koji se ne drže pravila?",
+      "choices": ["Soup Wizard", "The Soup Nazi", "Broth Master", "Soup King"],
+      "correctIndex": 1,
+      "tags": ["characters", "classic"]
+    },
+    {
+      "id": "L1-C1-0011",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Za koju bejzbolsku momčad George radi tijekom nekoliko sezona?",
+      "choices": ["New York Mets", "New York Yankees", "Boston Red Sox", "Chicago Cubs"],
+      "correctIndex": 1,
+      "tags": ["george", "job"]
+    },
+    {
+      "id": "L1-C1-0012",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Što Kramer pokušava instalirati u tuš kako bi mogao kuhati dok se pere?",
+      "choices": ["Pećnicu", "Mikrovalnu", "Drobilicu otpada", "Hladnjak"],
+      "correctIndex": 2,
+      "tags": ["kramer", "episodes"]
+    },
+    {
+      "id": "L1-C1-0013",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Kako se zove Elainein šef koji voli pustolovine i nosi šešir?",
+      "choices": ["Mr. Pitt", "Mr. Lippman", "J. Peterman", "Mr. Kruger"],
+      "correctIndex": 2,
+      "tags": ["characters", "elaine"]
+    },
+    {
+      "id": "L1-C1-0014",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Koja je bila Georgeova zaručnica koja je preminula od lizanja omotnica?",
+      "choices": ["Susan", "Heidi", "Dolores", "Beth"],
+      "correctIndex": 0,
+      "tags": ["characters", "george"]
+    },
+    {
+      "id": "L1-C1-0015",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Što Newman radi po zanimanju?",
+      "choices": ["Policajac", "Poštar", "Dostavljač pizze", "Vozač taksija"],
+      "correctIndex": 1,
+      "tags": ["characters", "newman"]
+    },
+    {
+      "id": "L1-C1-0016",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Koju vrstu slatkiša Jerry slučajno ispusti u tijelo pacijentice tijekom operacije?",
+      "choices": ["Skittles", "Junior Mints", "Snickers", "Twizzlers"],
+      "correctIndex": 1,
+      "tags": ["episodes", "jerry"]
+    },
+    {
+      "id": "L1-C1-0017",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Koji je broj Jerryjevog stana?",
+      "choices": ["4A", "5B", "5A", "3C"],
+      "correctIndex": 2,
+      "tags": ["setting"]
+    },
+    {
+      "id": "L1-C1-0018",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Što Elaine uvijek viče kada čuje šokantne vijesti dok gura sugovornika?",
+      "choices": ["No way!", "Shut up!", "Get out!", "Oh my god!"],
+      "correctIndex": 2,
+      "tags": ["elaine", "catchphrase"]
+    },
+    {
+      "id": "L1-C1-0019",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Kako se zove Kramerov prijatelj kojeg nikad ne vidimo, ali često spominje njegove bizarne priče?",
+      "choices": ["Lomez", "Bob Sacamano", "Jay Riemenschneider", "Slippery Pete"],
+      "correctIndex": 1,
+      "tags": ["characters", "kramer"]
+    },
+    {
+      "id": "L1-C1-0020",
+      "categoryId": 1,
+      "level": 1,
+      "question": "Koji auto George kupi misleći da je pripadao glumcu Jonu Voightu?",
+      "choices": ["Volvo", "Chrysler LeBaron", "Saab 900", "Ford Escort"],
+      "correctIndex": 1,
+      "tags": ["george", "episodes"]
+    }
+  ]
+}
