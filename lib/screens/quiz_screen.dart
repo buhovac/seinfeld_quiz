@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../domain/quiz_engine.dart';
 import '../domain/quiz_state.dart';
+import '../services/progress_service.dart';
 
 class QuizScreen extends StatefulWidget {
   final int level;
@@ -18,12 +19,13 @@ class QuizScreen extends StatefulWidget {
 
 class _QuizScreenState extends State<QuizScreen> {
   final _engine = QuizEngine();
+  final _progressService = ProgressService();
 
   QuizState? _state;
   QuizResult? _result;
   Object? _error;
 
-  bool _locked = false; // spriječi double tap
+  bool _locked = false;
 
   @override
   void initState() {
@@ -33,7 +35,11 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Future<void> _start() async {
     try {
-      final s = await _engine.start(level: widget.level, categoryId: widget.categoryId);
+      final s = await _engine.start(
+        level: widget.level,
+        categoryId: widget.categoryId,
+      );
+
       setState(() {
         _state = s;
         _result = null;
@@ -41,7 +47,9 @@ class _QuizScreenState extends State<QuizScreen> {
         _locked = false;
       });
     } catch (e) {
-      setState(() => _error = e);
+      setState(() {
+        _error = e;
+      });
     }
   }
 
@@ -53,10 +61,24 @@ class _QuizScreenState extends State<QuizScreen> {
 
     if (s.finished) {
       final r = _engine.finish();
-      setState(() {
-        _state = s;
-        _result = r;
+
+      _progressService.updateAfterQuiz(r).then((_) {
+        if (!mounted) return;
+
+        setState(() {
+          _state = s;
+          _result = r;
+          _locked = false;
+        });
+      }).catchError((e) {
+        if (!mounted) return;
+
+        setState(() {
+          _error = e;
+          _locked = false;
+        });
       });
+
       return;
     }
 
@@ -84,9 +106,9 @@ class _QuizScreenState extends State<QuizScreen> {
       );
     }
 
-    // Result view
     if (_result != null) {
       final r = _result!;
+
       return Scaffold(
         appBar: AppBar(title: const Text('Result')),
         body: Padding(
@@ -94,11 +116,23 @@ class _QuizScreenState extends State<QuizScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text('Level ${r.level} / Category ${r.categoryId}', style: const TextStyle(fontSize: 18)),
+              Text(
+                'Level ${r.level} / Category ${r.categoryId}',
+                style: const TextStyle(fontSize: 18),
+              ),
               const SizedBox(height: 12),
-              Text('Score: ${r.correct}/${r.total}', style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+              Text(
+                'Score: ${r.correct}/${r.total}',
+                style: const TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               const SizedBox(height: 12),
-              Text(r.passed ? 'PASSED' : 'FAILED', style: const TextStyle(fontSize: 22)),
+              Text(
+                r.passed ? 'PASSED' : 'FAILED',
+                style: const TextStyle(fontSize: 22),
+              ),
               const Spacer(),
               ElevatedButton(
                 onPressed: _start,
@@ -115,20 +149,27 @@ class _QuizScreenState extends State<QuizScreen> {
       );
     }
 
-    // Quiz view
     final s = _state!;
     final q = s.current;
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('L${s.level} C${s.categoryId}  (${s.currentIndex + 1}/${s.questions.length})'),
+        title: Text(
+          'L${s.level} C${s.categoryId} (${s.currentIndex + 1}/${s.questions.length})',
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(q.question, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w600)),
+            Text(
+              q.question,
+              style: const TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
             const SizedBox(height: 16),
             ...List.generate(4, (i) {
               return Padding(
@@ -140,7 +181,10 @@ class _QuizScreenState extends State<QuizScreen> {
               );
             }),
             const Spacer(),
-            Text('Correct: ${s.correct} / Answered: ${s.answered}', textAlign: TextAlign.center),
+            Text(
+              'Correct: ${s.correct} / Answered: ${s.answered}',
+              textAlign: TextAlign.center,
+            ),
           ],
         ),
       ),
