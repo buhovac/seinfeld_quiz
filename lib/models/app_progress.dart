@@ -1,13 +1,13 @@
 class AppProgress {
   final int totalCorrect;
   final int totalAnswered;
-  final int highestUnlockedLevel;
+  final Map<int, int> unlockedLevelsByCategory;
   final bool fanMasterUnlocked;
 
   const AppProgress({
     required this.totalCorrect,
     required this.totalAnswered,
-    required this.highestUnlockedLevel,
+    required this.unlockedLevelsByCategory,
     required this.fanMasterUnlocked,
   });
 
@@ -15,7 +15,15 @@ class AppProgress {
     return const AppProgress(
       totalCorrect: 0,
       totalAnswered: 0,
-      highestUnlockedLevel: 1,
+      unlockedLevelsByCategory: {
+        1: 1,
+        2: 1,
+        3: 1,
+        4: 1,
+        5: 1,
+        6: 1,
+        7: 1,
+      },
       fanMasterUnlocked: false,
     );
   }
@@ -23,13 +31,14 @@ class AppProgress {
   AppProgress copyWith({
     int? totalCorrect,
     int? totalAnswered,
-    int? highestUnlockedLevel,
+    Map<int, int>? unlockedLevelsByCategory,
     bool? fanMasterUnlocked,
   }) {
     return AppProgress(
       totalCorrect: totalCorrect ?? this.totalCorrect,
       totalAnswered: totalAnswered ?? this.totalAnswered,
-      highestUnlockedLevel: highestUnlockedLevel ?? this.highestUnlockedLevel,
+      unlockedLevelsByCategory:
+          unlockedLevelsByCategory ?? this.unlockedLevelsByCategory,
       fanMasterUnlocked: fanMasterUnlocked ?? this.fanMasterUnlocked,
     );
   }
@@ -37,5 +46,9 @@ class AppProgress {
   double get percentage {
     if (totalAnswered == 0) return 0;
     return (totalCorrect / totalAnswered) * 100;
+  }
+
+  int unlockedLevelForCategory(int categoryId) {
+    return unlockedLevelsByCategory[categoryId] ?? 1;
   }
 }

@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:share_plus/share_plus.dart';
 import '../domain/quiz_engine.dart';
 import '../domain/quiz_state.dart';
 import '../services/progress_service.dart';
+import '../services/share_text_builder.dart';
+import '../config/app_quiz_config.dart';
 
 class QuizScreen extends StatefulWidget {
   final int level;
@@ -51,6 +54,17 @@ class _QuizScreenState extends State<QuizScreen> {
         _error = e;
       });
     }
+  }
+
+  Future<void> _shareResult(QuizResult result) async {
+    final text = ShareTextBuilder.build(
+      result: result,
+      config: appQuizConfig,
+    );
+
+    await SharePlus.instance.share(
+      ShareParams(text: text),
+    );
   }
 
   void _answer(int choiceIndex) {
@@ -117,7 +131,7 @@ class _QuizScreenState extends State<QuizScreen> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
-                'Level ${r.level} / Category ${r.categoryId}',
+                'Level ${r.level} / ${appQuizConfig.getCategoryById(r.categoryId)?.title ?? "Category ${r.categoryId}"}',
                 style: const TextStyle(fontSize: 18),
               ),
               const SizedBox(height: 12),
@@ -139,6 +153,11 @@ class _QuizScreenState extends State<QuizScreen> {
                 child: const Text('Play again'),
               ),
               const SizedBox(height: 8),
+              ElevatedButton(
+                onPressed: () => _shareResult(r),
+                child: const Text('Share Result'),
+              ),
+              const SizedBox(height: 8),
               OutlinedButton(
                 onPressed: () => Navigator.of(context).pop(),
                 child: const Text('Back'),
@@ -155,7 +174,7 @@ class _QuizScreenState extends State<QuizScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'L${s.level} C${s.categoryId} (${s.currentIndex + 1}/${s.questions.length})',
+          'L${s.level} ${appQuizConfig.getCategoryById(s.categoryId)?.title ?? "Category ${s.categoryId}"} (${s.currentIndex + 1}/${s.questions.length})',
         ),
       ),
       body: Padding(

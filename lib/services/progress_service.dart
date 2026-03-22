@@ -14,11 +14,14 @@ class ProgressService {
   Future<AppProgress> updateAfterQuiz(QuizResult result) async {
     final current = await _store.load();
 
-    int nextUnlockedLevel = current.highestUnlockedLevel;
+    final updatedUnlocked = Map<int, int>.from(current.unlockedLevelsByCategory);
+
+    final currentUnlockedForCategory = updatedUnlocked[result.categoryId] ?? 1;
+
     if (result.passed && result.level < 7) {
       final candidate = result.level + 1;
-      if (candidate > nextUnlockedLevel) {
-        nextUnlockedLevel = candidate;
+      if (candidate > currentUnlockedForCategory) {
+        updatedUnlocked[result.categoryId] = candidate;
       }
     }
 
@@ -28,7 +31,7 @@ class ProgressService {
     final updated = current.copyWith(
       totalCorrect: current.totalCorrect + result.correct,
       totalAnswered: current.totalAnswered + result.total,
-      highestUnlockedLevel: nextUnlockedLevel,
+      unlockedLevelsByCategory: updatedUnlocked,
       fanMasterUnlocked: unlockedFanMaster,
     );
 

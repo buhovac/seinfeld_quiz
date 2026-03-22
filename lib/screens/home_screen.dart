@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../config/app_quiz_config.dart';
 import '../models/app_progress.dart';
 import '../services/progress_service.dart';
 import 'quiz_screen.dart';
@@ -34,21 +35,21 @@ class _HomeScreenState extends State<HomeScreen> {
   void _openQuiz(int level, int categoryId) {
     Navigator.of(context)
         .push(
-      MaterialPageRoute(
-        builder: (_) => QuizScreen(level: level, categoryId: categoryId),
-      ),
-    )
+          MaterialPageRoute(
+            builder: (_) => QuizScreen(level: level, categoryId: categoryId),
+          ),
+        )
         .then((_) {
-      setState(() {
-        _loadProgress();
-      });
-    });
+          setState(() {
+            _loadProgress();
+          });
+        });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Seinfeld Quiz')),
+      appBar: AppBar(title: Text(appQuizConfig.appTitle)),
       body: FutureBuilder<AppProgress>(
         future: _progressFuture,
         builder: (context, snapshot) {
@@ -71,10 +72,15 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 const Text(
                   'Progress',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 const SizedBox(height: 12),
-                Text('Unlocked level: ${progress.highestUnlockedLevel}'),
+                const Text(
+                  'Unlocked levels are tracked separately for each category.',
+                ),
                 Text(
                   'Global score: ${progress.totalCorrect}/${progress.totalAnswered}',
                 ),
@@ -82,37 +88,81 @@ class _HomeScreenState extends State<HomeScreen> {
                   'Accuracy: ${progress.percentage.toStringAsFixed(1)}%',
                 ),
                 Text(
-                  'Fan Master: ${progress.fanMasterUnlocked ? "YES" : "NO"}',
+                  '${appQuizConfig.masteryTitle}: ${progress.fanMasterUnlocked ? "YES" : "NO"}',
                 ),
                 const SizedBox(height: 24),
                 const Text(
-                  'Levels',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  'Categories',
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 const SizedBox(height: 12),
+                Expanded(
+                  child: ListView(
+                    children: [
+                      ...appQuizConfig.categories.map((category) {
+                        final unlockedLevelForCategory =
+                            progress.unlockedLevelForCategory(category.id);
 
-                ...List.generate(7, (index) {
-                  final level = index + 1;
-                  final unlocked = level <= progress.highestUnlockedLevel;
+                        return Card(
+                          margin: const EdgeInsets.only(bottom: 12),
+                          child: Padding(
+                            padding: const EdgeInsets.all(12),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                              children: [
+                                Text(
+                                  category.title,
+                                  style: const TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                const SizedBox(height: 4),
+                                Text(category.description),
+                                const SizedBox(height: 8),
+                                Text(
+                                  'Unlocked up to level $unlockedLevelForCategory',
+                                  style: const TextStyle(
+                                    fontStyle: FontStyle.italic,
+                                  ),
+                                ),
+                                const SizedBox(height: 12),
+                                ...List.generate(7, (index) {
+                                  final level = index + 1;
+                                  final unlocked = level <=
+                                      progress.unlockedLevelForCategory(
+                                        category.id,
+                                      );
 
-                  return Padding(
-                    padding: const EdgeInsets.only(bottom: 10),
-                    child: ElevatedButton(
-                      onPressed: unlocked ? () => _openQuiz(level, 1) : null,
-                      child: Text(
-                        unlocked
-                            ? 'Start Level $level'
-                            : 'Level $level Locked',
+                                  return Padding(
+                                    padding: const EdgeInsets.only(bottom: 8),
+                                    child: ElevatedButton(
+                                      onPressed: unlocked
+                                          ? () => _openQuiz(level, category.id)
+                                          : null,
+                                      child: Text(
+                                        unlocked
+                                            ? 'Start ${category.title} - Level $level'
+                                            : '${category.title} - Level $level Locked',
+                                      ),
+                                    ),
+                                  );
+                                }),
+                              ],
+                            ),
+                          ),
+                        );
+                      }),
+                      const SizedBox(height: 12),
+                      OutlinedButton(
+                        onPressed: _resetProgress,
+                        child: const Text('Reset Progress'),
                       ),
-                    ),
-                  );
-                }),
-
-                const Spacer(),
-
-                OutlinedButton(
-                  onPressed: _resetProgress,
-                  child: const Text('Reset Progress'),
+                    ],
+                  ),
                 ),
               ],
             ),

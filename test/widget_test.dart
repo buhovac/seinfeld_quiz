@@ -3,9 +3,8 @@ import 'package:seinfeld_quiz/main.dart';
 
 void main() {
   testWidgets('App boots', (WidgetTester tester) async {
-    await tester.pumpWidget(const SeinfeldQuizApp());
+    await tester.pumpWidget(const QuizApp());
 
-    // provjeri da se prikazuje AppBar title iz DebugQuestionsScreen
     expect(find.text('Debug: Questions'), findsOneWidget);
   });
 }
