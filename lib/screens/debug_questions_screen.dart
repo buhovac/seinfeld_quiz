@@ -47,8 +47,7 @@ class _DebugQuestionsScreenState extends State<DebugQuestionsScreen> {
           }
 
           final bank = snapshot.data!;
-          final validator = QuestionValidator();
-          final errors = validator.validate(bank.questions);
+          final errors = QuestionValidator.validateAll(bank.questions);
           final counts = _countByLevelCategory(bank.questions);
 
           return ListView(

@@ -2,45 +2,35 @@ import '../models/quiz_category.dart';
 import 'quiz_config.dart';
 
 const appQuizConfig = QuizConfig(
-  appTitle: 'Seinfeld Quiz',
-  masteryTitle: 'Fan Master Seinfeld',
-  beginnerTitle: 'baby Seinfeld fan',
-  quizSubjectName: 'Seinfeld',
+  appTitle: 'Python Quiz',
+  masteryTitle: 'Python Master',
+  beginnerTitle: 'Python beginner',
+  quizSubjectName: 'Python',
   categories: [
     QuizCategory(
       id: 1,
-      title: 'Characters',
-      description: 'Jerry, George, Elaine, Kramer and the wider cast.',
+      title: 'Basics',
+      description: 'Syntax, variables, comments and expressions.',
     ),
     QuizCategory(
       id: 2,
-      title: 'Episodes',
-      description: 'Classic episodes, plots and memorable moments.',
+      title: 'Data Structures',
+      description: 'Lists, tuples, sets and dictionaries.',
     ),
     QuizCategory(
       id: 3,
-      title: 'Quotes',
-      description: 'Iconic lines and catchphrases.',
+      title: 'Control Flow',
+      description: 'Conditions, loops and branching.',
     ),
     QuizCategory(
       id: 4,
-      title: 'Relationships',
-      description: 'Dating disasters and social chaos.',
+      title: 'Functions & OOP',
+      description: 'Functions, scope, classes and methods.',
     ),
     QuizCategory(
       id: 5,
-      title: 'Jobs & Life',
-      description: 'Work, schemes and day-to-day nonsense.',
-    ),
-    QuizCategory(
-      id: 6,
-      title: 'Places & Objects',
-      description: 'Monk’s, apartments and legendary objects.',
-    ),
-    QuizCategory(
-      id: 7,
-      title: 'Ultimate',
-      description: 'Hardcore fan questions.',
+      title: 'Advanced Python',
+      description: 'Exceptions, decorators, iterators and deeper behavior.',
     ),
   ],
 );

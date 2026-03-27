@@ -18,7 +18,7 @@ class ProgressService {
 
     final currentUnlockedForCategory = updatedUnlocked[result.categoryId] ?? 1;
 
-    if (result.passed && result.level < 7) {
+    if (result.passed && result.level < 3) {
       final candidate = result.level + 1;
       if (candidate > currentUnlockedForCategory) {
         updatedUnlocked[result.categoryId] = candidate;
@@ -26,7 +26,7 @@ class ProgressService {
     }
 
     final unlockedFanMaster =
-        current.fanMasterUnlocked || (result.level == 7 && result.passed);
+        current.fanMasterUnlocked || (result.level == 3 && result.passed);
 
     final updated = current.copyWith(
       totalCorrect: current.totalCorrect + result.correct,

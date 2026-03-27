@@ -18,7 +18,7 @@ class QuestionRepository {
     if (_cache != null) return _cache!;
     final bank = await _loader.load();
 
-    final errors = _validator.validate(bank.questions);
+    final errors = QuestionValidator.validateAll(bank.questions);
     assert(errors.isEmpty, errors.join('\n'));
 
     _cache = bank;

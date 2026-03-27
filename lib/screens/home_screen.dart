@@ -31,6 +31,18 @@ class _HomeScreenState extends State<HomeScreen> {
       _loadProgress();
     });
   }
+  String _levelLabel(int level) {
+    switch (level) {
+      case 1:
+        return 'Novice';
+      case 2:
+        return 'Medium';
+      case 3:
+        return 'Advanced';
+      default:
+        return 'Unknown';
+    }
+  }
 
   void _openQuiz(int level, int categoryId) {
     Navigator.of(context)
@@ -130,7 +142,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   ),
                                 ),
                                 const SizedBox(height: 12),
-                                ...List.generate(7, (index) {
+                                ...List.generate(3, (index) {
                                   final level = index + 1;
                                   final unlocked = level <=
                                       progress.unlockedLevelForCategory(
@@ -145,8 +157,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                           : null,
                                       child: Text(
                                         unlocked
-                                            ? 'Start ${category.title} - Level $level'
-                                            : '${category.title} - Level $level Locked',
+                                            ? 'Start ${category.title} - ${_levelLabel(level)}'
+                                            : '${category.title} - ${_levelLabel(level)} Locked',
                                       ),
                                     ),
                                   );

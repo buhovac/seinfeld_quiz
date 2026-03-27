@@ -1,0 +1,7189 @@
+{
+  "version": 3,
+  "quizMeta": {
+    "subject": "Seinfeld",
+    "language": "hr",
+    "levels": {
+      "1": "novice",
+      "2": "medium",
+      "3": "advanced"
+    }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "title": "Basics",
+      "description": "Broad foundational knowledge about the show."
+    },
+    {
+      "id": 2,
+      "title": "Characters & Relationships",
+      "description": "Character facts, family, jobs and relationships."
+    },
+    {
+      "id": 3,
+      "title": "Episodes & Storylines",
+      "description": "Episode-specific plots, situations and story events."
+    },
+    {
+      "id": 4,
+      "title": "Quotes, Running Gags & Objects",
+      "description": "Iconic lines, objects, recurring jokes and props."
+    },
+    {
+      "id": 5,
+      "title": "Meta & Deep Trivia",
+      "description": "Cast, production details and niche trivia."
+    }
+  ],
+  "questions": [
+    {
+      "id": "L1-C2-001",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je Jerryjev omiljeni superjunak?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Batman",
+        "Superman",
+        "Spider-Man",
+        "Iron Man"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "superhero"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-002",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koje je Kramerovo ime?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Cosmo",
+        "Babs",
+        "Kenny",
+        "H.E."
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-003",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Georgeova majka?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Helen",
+        "Estelle",
+        "Liz",
+        "Ruth"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george",
+        "family"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-001",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju hranu Newman najviše mrzi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Pizzu",
+        "Krafne",
+        "Brokulu",
+        "Piletinu"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "newman",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-002",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Što Elaine uvijek nosi u ranoj sezoni?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Zidni sat",
+        "Veliku cvjetnu haljinu",
+        "Kožnu jaknu",
+        "Ruksak"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine",
+        "fashion"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-001",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Gdje Jerry živi (kvart)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Brooklyn",
+        "Upper West Side",
+        "Queens",
+        "The Bronx"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "setting"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-001",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što je Kramerov hobi u jednoj epizodi koji uključuje obalu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sakupljanje školjaka",
+        "Golf u ocean",
+        "Surfanje",
+        "Ribolov"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-004",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Elainein bivši dečko koji je 'pudlica'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "David Puddy",
+        "Joe Mayo",
+        "Keith Hernandez",
+        "Brett"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine",
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-005",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "U kojem gradu žive Jerryjevi roditelji?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Miami",
+        "Del Boca Vista",
+        "Orlando",
+        "Tampa"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "family",
+        "setting"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-006",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Elaine radi u izdavačkoj kući?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Urednica",
+        "Tajnica",
+        "Dizajnerica",
+        "Lektorica"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine",
+        "job"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-003",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koja je Kramerova omiljena voćka koja je zabranjena u jednom dućanu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jabuka",
+        "Breskva",
+        "Mackinaw breskva",
+        "Banana"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "kramer",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-007",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove pas koji je opsjedao Elaine?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Farfel",
+        "Snowball",
+        "Little Jerry",
+        "Sparky"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-008",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Tko je 'The Bubble Boy'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kramer",
+        "Donald",
+        "George",
+        "Jerry"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-009",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjeva bivša djevojka koja mu je sada prijateljica?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Susan",
+        "Elaine",
+        "Rachel",
+        "Beth"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-002",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koju igru na ploči George i Bubble Boy igraju?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Šah",
+        "Rizik",
+        "Trivial Pursuit",
+        "Monopol"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-004",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Što Kramer nosi na glavi u 'The Chicken Roaster' epizodi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kapu",
+        "Povez za oči",
+        "Šubaru",
+        "Kacigu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-010",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji automobil vozi Jerry?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "BMW",
+        "Saab",
+        "Mercedes",
+        "Volvo"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-011",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev stric koji stalno viče 'Jerry, hello!'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Morty",
+        "Frank",
+        "Leo",
+        "Barney"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-012",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju životinju Kramer i Newman pokušavaju prokrijumčariti?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Psa",
+        "Mačku",
+        "Papigu",
+        "Crvendaća"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer",
+        "newman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-002",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Tko je vlasnik restorana Monk's?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Larry",
+        "George",
+        "Jerry",
+        "Monk"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "locations"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-005",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju juhu Jerry ne smije dobiti u poznatom restoranu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Od rajčice",
+        "Mulligatawny",
+        "Od gljiva",
+        "Goveđu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-013",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Kramerov niski prijatelj?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Mickey",
+        "Kenny",
+        "Newman",
+        "Bob"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-003",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što je Jerry ukrao od starice na ulici?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Torbu",
+        "Mramorni raženi kruh",
+        "Jabuku",
+        "Novčanik"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-014",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Elaine kupuje u velikim količinama jer se prestaju proizvoditi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Cipele",
+        "Spužve (kontracepcija)",
+        "Čokolade",
+        "Ruževe"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-001",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji glumac glumi Jerryja Seinfelda?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jason Alexander",
+        "Jerry Seinfeld",
+        "Michael Richards",
+        "Julia Louis-Dreyfus"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-015",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Kramer radi kad mu ponestane namirnica?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Ide u dućan",
+        "Uzima od Jerryja",
+        "Naručuje dostavu",
+        "Ne jede"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-016",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji instrument svira dečko od kojeg Elaine želi prekinuti?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Gitaru",
+        "Saksofon",
+        "Bubnjeve",
+        "Klavir"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-004",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Gdje se grupa izgubila cijelu jednu epizodu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "U šumi",
+        "U shopping centru (parkiralište)",
+        "U zračnoj luci",
+        "U knjižnici"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-017",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Jerry 'slučajno' učinio s Ponyjem u djetinjstvu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Nije ga volio",
+        "Izgubio ga je",
+        "Dobio ga je za rođendan",
+        "Jahao ga je"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-006",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koje je boje Kramerova poznata košulja s lišćem?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Crvena",
+        "Plava",
+        "Narančasta",
+        "Zelena"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "kramer",
+        "fashion"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-018",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji tip cipela Elaine ne voli?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Štikle",
+        "Tenisice",
+        "Čizme",
+        "Cipele s platformom"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-019",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Tko je Jerryjev najveći neprijatelj?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "George",
+        "Kramer",
+        "Newman",
+        "Leo"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-020",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Kramer gradi u svom stanu (iako nema mjesta)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bazen",
+        "Scenu za talk show",
+        "Pizzeriju",
+        "Teniski teren"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-021",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove prodavačica u dućanu s odjećom koja živcira Elaine?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Natasha",
+        "Sue Ellen",
+        "Peggy",
+        "Babs"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-022",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je broj Elaineinog stana?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "5A",
+        "2E",
+        "13D",
+        "10B"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-007",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Što Jerry nosi u 'The Puffy Shirt' epizodi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Odijelo",
+        "Krinolinu",
+        "Napuhanu košulju",
+        "Dres"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "jerry",
+        "fashion"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-003",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koja je bila zadnja lokacija u seriji?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Zatvor",
+        "Avion",
+        "Restoran",
+        "Jerryjev stan"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "finale"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-023",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je Puddyjev posao?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Prodavač osiguranja",
+        "Automehaničar",
+        "Pilot",
+        "Odvjetnik"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "puddy",
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-005",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koju vrstu hrane Jerry i ekipa čekaju cijelu epizodu u restoranu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Talijansku",
+        "Kinesku",
+        "Meksičku",
+        "Indijsku"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-024",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Kramerov 'Coffee Table Book' zapravo?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Knjiga o kavi",
+        "Knjiga o stolovima za kavu koja se pretvara u stol",
+        "Knjiga o Jerryju",
+        "Knjiga o New Yorku"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-025",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Elaineina 'suparnica' koja ne miče rukama dok hoda?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sue Ellen Mischke",
+        "Raquel Welch",
+        "Molly",
+        "Sally Weaver"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine",
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-004",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "U koga je Jerryjev ujak Leo uvijek sumnjičav da je 'antisemit'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Poštara",
+        "Kuhara",
+        "Blagajnika",
+        "Zubara"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "uncle-leo"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-006",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što Kramer koristi kao maslac za brijanje u jednoj epizodi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Majonezu",
+        "Pravi maslac",
+        "Šlag",
+        "Sladoled"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-008",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev suparnik komičar koji mu stalno nudi 'ovaj ili onaj' predmet?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kenny Bania",
+        "Pat Buckles",
+        "George Kaplin",
+        "Steve Hytner"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry",
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-009",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koji predmet Elaine pokušava vratiti u dućan J. Peterman jer joj se ne sviđa?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Haljinu",
+        "Cipele",
+        "Urbani sombreros",
+        "Torbu"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-026",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Newmanov najbolji prijatelj (osim Kramera)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Babs",
+        "Mickey",
+        "On nema drugih prijatelja",
+        "Bucky"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "newman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-010",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Što Jerry odbija pojesti kod dečka svoje djevojke jer 'nema kožicu'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Piletinu",
+        "Jabuku",
+        "Pitu",
+        "Hot dog"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "jerry",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-011",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju marku odjeće George nosi u 'The Reverse Peephole' koja ga čini jako debelim?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bundu",
+        "Gore-Tex jaknu",
+        "Baršunasti sako",
+        "Kožni mantil"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george",
+        "fashion"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-005",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koja je bila 'kazna' za gubljenje u okladi oko toga tko može izdržati najduže bez samozadovoljavanja?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Plaćanje večere",
+        "Gubitak prava glasa",
+        "Biti 'Master of the House'",
+        "Nema službene kazne osim srama"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "contest"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-027",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Jerryjev otac Morty izumio?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kišobran",
+        "Kabanicu bez rukava (The Executive)",
+        "Držač za novine",
+        "Automatski otvarač"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "family"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-028",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Elainein šef koji je opsjednut držanjem dijete i jedenjem Snickersa nožem i vilicom?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Mr. Pitt",
+        "J. Peterman",
+        "Mr. Lippman",
+        "Mr. Kruger"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-029",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Kramer postavlja na svoj auto kao registracijsku pločicu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "COSMO",
+        "ASSMAN",
+        "KRAMER",
+        "NEWMAN"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-030",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je hobi 'The Close Talker' dečka?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sakupljanje maraka",
+        "Briga o Jerryjevim roditeljima",
+        "Pjevanje",
+        "Kuhanje"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-006",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Što Jerry slučajno uništi Puddyju u autu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Radio",
+        "Kasetofon (uništio je kasetu)",
+        "Sjedalo",
+        "Retrovizor"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "puddy"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-007",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Kako se zove epizoda u kojoj se radnja odvija unatrag?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Opposite",
+        "The Betrayal",
+        "The Finale",
+        "The Invitations"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-031",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Jerry kupio ocu, a on mu je vratio jer je 'preskupo'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Auto",
+        "Sat (Wizard)",
+        "Digitalni rokovnik",
+        "TV"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "jerry",
+        "family"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-032",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Kramerov alter-ego kojeg koristi na telefonu za filmske informacije?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Moviefone",
+        "Dr. Van Nostrand",
+        "H.E. Pennypacker",
+        "Martin Van Nostrand"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-012",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koji začin George želi dodati u sendvič tijekom seksa?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Senf",
+        "Majonezu",
+        "Kečap",
+        "Pastrami"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "george",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-033",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "U kojoj tvrtki Elaine radi nakon što Lippman dobije otkaz?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Vandelay Industries",
+        "Pendant Publishing",
+        "J. Peterman Catalog",
+        "Kruger Industrial Smoothing"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-034",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju vrstu ptice Kramer slučajno ubije lopticom za golf?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Goluba",
+        "Galeba",
+        "Vrapca",
+        "Sokola"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-035",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjeva djevojka čije ime zvuči kao ženski spolni organ?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Mulva",
+        "Dolores",
+        "Celeste",
+        "Bovary"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-036",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je Elainein nadimak za njezinu 'veliku' glavu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Melon",
+        "The Bird",
+        "Walking Candy Apple",
+        "The Big Head"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-037",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Kramer radi kad se 'umirovi' u Del Boca Visti?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Igra golf",
+        "Kandidira se za predsjednika stanara",
+        "Peca",
+        "Samo spava"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-013",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Kako se zove odvjetnik koji uvijek nosi naočale i pije kavu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jackie Chiles",
+        "David Lookner",
+        "Bob Cobb",
+        "Art Vandelay"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-038",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Elaine pojede iz frižidera J. Petermana, vrijedno tisuće dolara?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Turtles bombone",
+        "Komad torte s vjenčanja kralja Edwarda VIII",
+        "Jastoga",
+        "Tartufe"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-039",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove zubar koji se preobratio na judaizam 'samo zbog viceva'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Dr. Tim Whatley",
+        "Dr. Reston",
+        "Dr. Abbott",
+        "Dr. Pendlum"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-040",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev rođak koji radi u zdravstvu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jeffrey",
+        "Leo",
+        "Barry",
+        "Scott"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry",
+        "family"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C4-014",
+      "categoryId": 4,
+      "level": 1,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju juhu Elaine naruči, a ne dobije kruh uz nju?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Krem juhu od gljiva",
+        "Limas grah",
+        "Mulligatawny",
+        "Tursku juhu"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "elaine",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-041",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Kramer donese Jerryju iz Italije?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Vino",
+        "Cipele",
+        "Jaknu",
+        "Pizzu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-008",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je nadimak za Georgea u epizodi 'The Strike'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "T-Bone",
+        "Koko the Monkey",
+        "The Wiz",
+        "Buck Naked"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-042",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Gdje Elaine upoznaje Puttyja?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "U crkvi",
+        "U restoranu",
+        "U avionu",
+        "U trgovini"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "elaine",
+        "puddy"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-002",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Kako se zove serija koju Jerry i George snimaju za NBC?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Seinfeld",
+        "Jerry",
+        "George & Jerry",
+        "Nothing"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-043",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je Kramerov najdraži tip sokola?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sivi sokol",
+        "Zlatni orao",
+        "On ne voli sokolove",
+        "Sokol koji jede krafne"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C2-044",
+      "categoryId": 2,
+      "level": 1,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Jerry radi kad god se osjeća prljavo ili nakon lošeg spoja?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Tušira se 3 puta",
+        "Baca odjeću u smeće",
+        "Čisti stan",
+        "Vježba"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-001",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Kako se zove Elainein dečko kojeg Jerry i George sumnjiče da je nacistički simpatizer?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Joel Rifkin",
+        "John Jermaine",
+        "O'Brien",
+        "Kurt"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "elaine",
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-002",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji nadimak Jerry dobije od ekipe u epizodi 'The Maid'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Puffy",
+        "Seinfeld",
+        "The Closer",
+        "Nightguy"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-001",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Kramer pokušao pretvoriti u 'pušački salon'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Svoj stan",
+        "Jerryjev stan",
+        "Restoran Monk's",
+        "Taksimetar"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-001",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Kako se zove Georgeova majka, Estelle, u stvarnosti (glumica)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Liz Sheridan",
+        "Estelle Harris",
+        "Mary Haney",
+        "Ruth Cohen"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "cast"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-001",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju vrstu hrane Jerry naziva 'the lowliest of all the fruits'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jabuku",
+        "Banane",
+        "Dinju",
+        "Nektarinu"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "jerry",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-002",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Kramer koristio kao 'mamac' u svojoj operaciji spašavanja 'Old 88'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Krafne",
+        "Pivo",
+        "Vruću juhu",
+        "Nije koristio mamac"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-003",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Elaine mora učiniti da bi dobila 'besplatni sub' (sendvič)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Skupiti 10 pečata",
+        "Skupiti 24 pečata",
+        "Plesati ispred dućana",
+        "Pojesti najveći sendvič"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-001",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji je Puddyjev omiljeni tim hokeja na ledu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "New York Rangers",
+        "New Jersey Devils",
+        "New York Islanders",
+        "Boston Bruins"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "puddy"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-004",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Kramerov prijatelj koji mu pomaže oko 'intervjua' u tvrtki?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Lomez",
+        "Bob Sacamano",
+        "Darren",
+        "Cedric"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-005",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "U kojoj se zgradi nalazi stan J. Petermana?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Dakota",
+        "The Beresford",
+        "The Gatsby",
+        "The Manhattan"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine",
+        "setting"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-003",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je Georgeov omiljeni način doručka u epizodi 'The Opposite'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Krafna",
+        "Piletina na žaru",
+        "Tuna na tostiranom kruhu",
+        "Palačinke"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-006",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Jerry 'izgubio' nakon što je počeo vježbati u teretani s Izzyjem Mandelbaumom?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Svoj auto",
+        "Svoja leđa (ozlijedio se)",
+        "Svoju djevojku",
+        "Svoj stan"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-007",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Kramerov projekt u kojem ljudima naplaćuje da idu u 'Reality Tour'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kramer's World",
+        "The Peterman Reality Tour",
+        "Cosmo's New York",
+        "The Real Kramer"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-008",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju marku automobila Jerry kupuje od Puddyja?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Saab 900",
+        "BMW 525i",
+        "Saab 9-5",
+        "Volvo 240"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "cars"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-009",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Elaine kupuje kao poklon za rođendan svojoj prijateljici, a završi kod nje same?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Torbu",
+        "Bocu vina",
+        "Kašmirski džemper",
+        "Par cipela"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-010",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Kramer koristio kao 'zamjenu' za loptice u svom stanu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Plastične boce",
+        "Jabuke",
+        "Dječje igračke",
+        "Teniske loptice"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-002",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Tko je glumio 'The Soup Nazi'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Larry David",
+        "Larry Hankin",
+        "Larry Thomas",
+        "Wayne Knight"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "cast"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-002",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju vrstu hrane Elaine ne smije naručiti u 'The Soup Nazi' jer je dobila zabranu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bisque od jastoga",
+        "Mulligatawny",
+        "Grah",
+        "Tursku juhu"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-003",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev suparnik koji uvijek nosi 'iznošeno odijelo'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kenny Bania",
+        "Pat Buckles",
+        "Ramon",
+        "Jimmy"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-004",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U kojoj epizodi Jerry i George pišu 'Pilot'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Finale",
+        "The Pilot",
+        "The Pitch",
+        "The Deal"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-011",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Kramer postavlja u hodnik svoje zgrade kako bi 'poboljšao atmosferu'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Biljke",
+        "Sliku",
+        "Stari kauč",
+        "Automatski osvježivač"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-012",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Elaineina prijateljica koja ima 'previše sreće'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sue Ellen",
+        "Sally Weaver",
+        "Babs",
+        "Rachel"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-013",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Jerry radi s djevojkom koja je 'previše savršena'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Prekida s njom zbog njezinih čarapa",
+        "Prekida s njom zbog njezine smijeha",
+        "Oženi je",
+        "Prekida jer mu je dosadna"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-014",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove pas kojeg Elaine unajmi 'ubojicu' da ga ukloni?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Farfel",
+        "Prop",
+        "Snowball",
+        "Buster"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-005",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je Kramerov omiljeni način kuhanja u epizodi 'The Fusilli Jerry'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Tjestenina",
+        "Pečenje vani",
+        "Korištenje tuša",
+        "Samo sirova hrana"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-006",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što Jerry odbija učiniti u epizodi 'The Kiss Hello'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Pozdraviti susjede",
+        "Poljubiti susjede",
+        "Dati novac susjedima",
+        "Plesati"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-015",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je 'broj 1' razlog zašto Jerry prekida s djevojkama?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Dosada",
+        "Fizički nedostaci",
+        "Smiješni glasovi",
+        "Sitničavost (peta-peta)"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-007",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što Kramer unajmi da mu očisti stan u jednoj epizodi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Spremačicu",
+        "Kult",
+        "Newmanove rođake",
+        "Studente"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-016",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Kramerov dečko 'The High Talker'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Dan",
+        "Noreen",
+        "Mickey",
+        "Jerry"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-017",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Jerry dobije od Kennyja Banie u zamjenu za večeru?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Odijelo",
+        "Kravatu",
+        "Kaput",
+        "Cipele"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-018",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Kramer radi u 'The Merv Griffin Show'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Gostuje",
+        "Vodi show u svom stanu",
+        "Piše scenarij",
+        "Služi kavu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-019",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Jerry kupuje na kraju 'The Bubble Boy' epizode?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Hot dog",
+        "Pitu",
+        "Sladoled",
+        "Juhu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-008",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je Georgeov nadimak u epizodi 'The Summer of George'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Lazy George",
+        "Classic George",
+        "The Summer of George",
+        "King George"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-020",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je model digitalnog rokovnika Jerry kupio svom ocu (a on ga je mrzio)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Wizard",
+        "The Willard",
+        "The Genius",
+        "The Executive"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry",
+        "gadgets"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-021",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju vrstu psa ima Newman (iako ga rijetko viđamo s njim)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Rotvajler",
+        "On nema psa (to je bila varka)",
+        "Zlatni retriver",
+        "Chihuahua"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "newman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-002",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji je naslov izmišljenog filma koji se često spominje, a opisuje se kao 'čudno erotsko putovanje mlade djevojke'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Rochelle, Rochelle",
+        "Chunnel",
+        "Death Blow",
+        "Sack Lunch"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "movies",
+        "pop-culture"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-009",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što je Kramer instalirao u svoj tuš kako bi mogao pripremati hranu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Dasku za rezanje",
+        "Drobilicu otpada",
+        "Malu pećnicu",
+        "Policu za začine"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer",
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-004",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju 'prokleto dobru' juhu Jerry i ekipa jedu u epizodi 'The Soup Nazi'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Mulligatawny",
+        "Bisque od jastoga",
+        "Grah s kobasicom",
+        "Juha od gljiva"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-022",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je hobi g. Pitta u kojem mu Elaine mora pomagati satima?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Traženje slika u 'Magic Eye' posteru",
+        "Slaganje puzzli",
+        "Sakupljanje maraka",
+        "Bojenje maketa"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine",
+        "mr-pitt"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-023",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Kramer pokušao prodati J. Petermanu kao 'svoje životne priče'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Dnevnik",
+        "Kasetofon",
+        "Bilješke na salvetama",
+        "Samo usmeno pričanje"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer",
+        "peterman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-024",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je 'The Wiz' (iz epizode 'The Junk Mail') po zanimanju?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Prodavač elektronike",
+        "Komičar",
+        "Poštar",
+        "Kramerov odvjetnik"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-025",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev 'suparnik' dostavljač koji se naljutio jer mu Jerry nije otvorio vrata?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Ramon",
+        "Joe",
+        "Mickey",
+        "Papi"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-026",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "U kojoj državi Newman planira provesti svoju mirovinu (prema njegovim snovima)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Hawaii",
+        "Tahiti",
+        "Florida",
+        "Bermuda"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "newman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-027",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Elaine morala pojesti da bi dokazala da nije 'teška za suradnju' u J. Peterman katalogu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bocu octa",
+        "Vrećicu čipsa iz 1950-ih",
+        "Ništa (morala je plesati)",
+        "Izuzetno ljutu papričicu"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-028",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je 'vječno nezavršen' projekt Kramera i Newmana koji uključuje povrat boca?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Michigan Project",
+        "The Bottle Run",
+        "The 10 Cent Scam",
+        "The Big Return"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer",
+        "newman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-005",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koja je marka Jerryjeve omiljene žitarice koja se uvijek vidi na polici?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Cheerios",
+        "Kix",
+        "Honeycomb",
+        "Razne (uvijek ih ima puno)"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "jerry",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-010",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Kako se zove pas koji je ugrizao Elaine u epizodi 'The Postponement'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Snowball",
+        "Buster",
+        "Farfel",
+        "Nije je ugrizao pas nego mačka"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-011",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što Kramer koristi kao 'parfem' u epizodi 'The Beach'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Miris oceana",
+        "Miris plaže",
+        "Miris kokosa",
+        "Miris stare ribe"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-006",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koji je broj dresa nosio Keith Hernandez kad je gostovao u seriji?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "17",
+        "10",
+        "22",
+        "5"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "guest-stars"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-012",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što je Jerry 'izgubio' u epizodi 'The Junior Mint'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Novčanik",
+        "Ime svoje djevojke",
+        "Ključeve stana",
+        "Sat"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-029",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Kramerov prijatelj koji 'uvijek ima ideju' (ali ga nikad ne vidimo)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bob Sacamano",
+        "Lomez",
+        "Jay Riemenschneider",
+        "Slippery Pete"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer",
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-030",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju vrstu tjestenine Kramer koristi za izradu kipa Jerryja?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Fusilli",
+        "Ravioli",
+        "Macaroni",
+        "Penne"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer",
+        "art"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-007",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Što Elaine uvijek naručuje u Monk'su (poznata salata)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Big Salad",
+        "Greek Salad",
+        "Chef Salad",
+        "Cezar Salad"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C3-013",
+      "categoryId": 3,
+      "level": 2,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što je Jerry 'ukrao' od djeteta u epizodi 'The Pez Dispenser'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Pez dozator",
+        "Smijeh",
+        "Mjesto u redu",
+        "Ništa (ukrao je od starice)"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-008",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju vrstu jakne Jerry kupuje, a koja ima 'pink' postavu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kožnu jaknu",
+        "Suede (antilop) jaknu",
+        "Traper jaknu",
+        "Vjetrovku"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "fashion"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C2-031",
+      "categoryId": 2,
+      "level": 2,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev ujak koji mu stalno daje novac (5 dolara)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Uncle Leo",
+        "Uncle Morty",
+        "Uncle Mac",
+        "On mu ne daje novac"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry",
+        "family"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-009",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju vrstu kolača Jerry i Elaine pokušavaju kupiti u pečenjari?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Chocolate Babka",
+        "Cinnamon Babka",
+        "Mramorni raženi",
+        "Black and White Cookie"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-010",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Kako se zove dečko koji 'uvijek nosi istu košulju'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Same-Shirt Guy",
+        "Jerry",
+        "Newman",
+        "On ne postoji"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "trick"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C4-011",
+      "categoryId": 4,
+      "level": 2,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju vrstu hrane Jerry jede s nožem i vilicom u jednoj epizodi (kao trend)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Snickers",
+        "Pizzu",
+        "Jabuku",
+        "Krafnu"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry",
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-003",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Što je zadnja riječ izgovorena u cijeloj seriji (finalna scena)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Buttons",
+        "Nothing",
+        "See ya",
+        "Newman"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "finale"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-001",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je model video rekordera koji Jerry posjeduje u ranijim sezonama?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sony Betamax",
+        "JVC HR-D725U",
+        "Mitsubishi HS-423UR",
+        "Panasonic PV-1220"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "jerry",
+        "tech"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-001",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Kako se zove konj na kojeg se Kramer kladi u epizodi 'The Subway'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Papanick",
+        "Snoopy",
+        "Rusty",
+        "Prickly Pete"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer",
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-002",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koje je pravo ime lika kojeg svi zovu 'The Maestro'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bob Cobb",
+        "Steven Koren",
+        "Arthur Vandelay",
+        "Leonard Bernstein"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-002",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Marine Biologist', koju marku loptice za golf George izvadi iz kita?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Titleist",
+        "Callaway",
+        "Top-Flite",
+        "TaylorMade"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "george",
+        "classic"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-003",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Elaineina asistentica koja joj se 'sveti' jer joj nije dala povišicu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Peggy",
+        "Robin",
+        "Ada",
+        "Stacie"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C1-001",
+      "categoryId": 1,
+      "level": 3,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koju vrstu psa Newman pokušava eliminirati uz pomoć Kramera i Elaine?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Zlatni retriver",
+        "Chow Chow",
+        "Jack Russell Terijer",
+        "Nema specifične pasmine"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "animals"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-003",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što George koristi kao 'ljepilo' za svoje naočale u epizodi 'The Glasses'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Selotejp",
+        "Žvakaću gumu",
+        "Super ljepilo",
+        "Spajalicu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-004",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Barber', kako se zove frizer kod kojeg Jerry potajno ide?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Enzo",
+        "Gino",
+        "Luigi",
+        "Vincenzo"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-004",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev rođak kojeg Leo stalno hvali jer radi u 'Parks Department'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jeffrey",
+        "Scott",
+        "Barry",
+        "Danny"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "uncle-leo"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-005",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što Kramer poklanja Jerryju za rođendan u epizodi 'The Label Maker'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Super Bowl ulaznice",
+        "Label Maker",
+        "Bench press",
+        "Stroj za kavu"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-005",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kako se zove restoran koji se otvori preko puta Jerryjevog stana s neonskim piletom?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kenny Rogers Roasters",
+        "Popeyes",
+        "KFC",
+        "Boston Market"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "setting"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-004",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je 'registarski broj' Newmana u pošti?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "714",
+        "Nema broj",
+        "Njegovo prezime je broj",
+        "2332"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "newman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-006",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što je 'The Drake' dobio na vjenčanje od ekipe (a oni su ga htjeli natrag)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "TV",
+        "Aparata za kavu",
+        "Veliki TV",
+        "Ploču"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-007",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koju boju olovke George traži u 'The Pen' epizodi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Crnu",
+        "Plavu",
+        "Crvenu",
+        "Zelenu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-005",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Kramer koristi umjesto balzama za poslije brijanja?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Ekstrakt vanilije",
+        "Rum",
+        "Mlijeko",
+        "Pivo"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-006",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je naslov filma koji Jerry gleda s Leom kad ga uhvate u piratstvu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Death Blow",
+        "Cry, Cry Again",
+        "Chunnel",
+        "The Muted River"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-007",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Newmanov stanodavac?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Silvio",
+        "Joe",
+        "Newman nema stanodavca",
+        "Mr. Johnson"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "newman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-008",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što Elaine 'posudi' iz ureda g. Pitta?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kristalnu zdjelu",
+        "Nalivpero",
+        "Enciklopediju",
+        "Teniski reket"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C1-002",
+      "categoryId": 1,
+      "level": 3,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji auto vozi g. Steinbrenner (prema Georgeovim riječima)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Lincoln",
+        "Cadillac",
+        "Oldsmobile",
+        "Buick"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "yankees"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-008",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev 'suparnik' u epizodi 'The Dinner Party'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Black and White Cookie",
+        "Saddam Hussein",
+        "Lik s Newsdaya",
+        "Onaj koji mu je uzeo mramorni raženi"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-009",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što je 'The Mohel' zaboravio ponijeti na obrezivanje?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Nož",
+        "Vino",
+        "Rukavice",
+        "Svoju torbu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-010",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U kojem je gradu Kramer 'izgubljen' u epizodi 'The Maid'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Queens",
+        "The Bronx",
+        "Brooklyn",
+        "1st and 1st (Nexus of the Universe)"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-006",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Što je Georgeov otac, Frank, skupljao godinama?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "TV Guide časopise",
+        "Kovanice",
+        "Novine",
+        "Poštanske marke"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "frank-costanza"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-009",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je broj na Newmanovoj poštarskoj kapi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "8",
+        "Nema broja",
+        "12",
+        "55"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "newman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-010",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koja je bila Georgeova 'funkcija' u tvrtki 'Play Now'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Direktor",
+        "Prodavač",
+        "Korisnik (zbog lažne ozljede)",
+        "Nema je"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-011",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev automehaničar koji mu je ukrao auto?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Tony",
+        "David",
+        "Puddy",
+        "Slippery Pete"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-012",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Što je Kramer pokušao patentirati pod imenom 'The Mansiere'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Muški grudnjak",
+        "Muški novčanik",
+        "Nosač za hlače",
+        "Novi tip kape"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-013",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je 'naslov' Kramerove knjige o kavi u Japanu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Coffee Table Book",
+        "Kramer!",
+        "The Great Cosmo",
+        "Nema poseban naslov"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-014",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju marku cipela Elaine mora pronaći za g. Pitta?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bally",
+        "Enzo Angiolini",
+        "Ferragamo",
+        "Nema marke"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-001",
+      "categoryId": 4,
+      "level": 3,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Što Jerry nosi na ruci u epizodi 'The Wallet'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Novi sat",
+        "Gips",
+        "Ništa",
+        "Povez"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-015",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je 'posao' Kramer dobio u tvrtki Brandt-Leland?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Analitičar",
+        "On nije dobio posao (samo je ušao)",
+        "Računovođa",
+        "Tajnik"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-011",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Kako se zove Georgeov 'suparnik' u epizodi 'The Comeback'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Reilly",
+        "Kruger",
+        "Morgan",
+        "Peterman"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-016",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koja je marka Jerryjevog novog auta kojeg mu Puddy proda?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "BMW 525i",
+        "Saab 900",
+        "Lexus",
+        "Mercedes"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-002",
+      "categoryId": 4,
+      "level": 3,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Što je 'The Big Salad' koštala (u dolarima)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Nije navedeno",
+        "10",
+        "12",
+        "15"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-012",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koju vrstu ptice Jerry mora paziti u epizodi 'The Invitations'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Papigu",
+        "Goluba",
+        "Kanarića",
+        "Nema ptice"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-013",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što je Jerry 'izgubio' u epizodi 'The Toothbrush'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Četkicu u zahodu",
+        "Ključeve",
+        "Novčanik",
+        "Sat"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C5-001",
+      "categoryId": 5,
+      "level": 3,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji je glumac igrao i lika 'Jake Jarmel' i lika koji radi u kopiraoni u ranijoj sezoni?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Marty Rackham",
+        "John Jermaine",
+        "Christa Miller",
+        "Brian George"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "meta",
+        "cast"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-014",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Kako se zove Georgeova prva 'prava' djevojka u seriji (pojavljuje se u epizodi 'The Robbery')?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sandi",
+        "Marlene",
+        "Luanne",
+        "Diane"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "george",
+        "early-seasons"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-017",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju marku televizora Jerry ima u svom stanu tijekom većeg dijela serije?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sony",
+        "Panasonic",
+        "RCA",
+        "Mitsubishi"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry",
+        "set-design"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C5-002",
+      "categoryId": 5,
+      "level": 3,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koja je bila originalna adresa Jerryjevog stana u pilot epizodi (prije nego što je postala 129 West 81st St)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Apartment 411",
+        "Apartment 3A",
+        "Apartment 5A",
+        "Apartment 12"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "pilot"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-018",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Elainein dečko, 'The Wake-Up Service' tip, koji zaspi na poslu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "James",
+        "Kurt",
+        "Matthew",
+        "Jean-Paul"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "elaine",
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-015",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je broj sobe u hotelu u kojem George i Jerry odsjedaju u Los Angelesu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "411",
+        "212",
+        "121",
+        "303"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "episodes",
+        "travel"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C5-003",
+      "categoryId": 5,
+      "level": 3,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji poznati glumac iz 'Breaking Bad' serije igra ulogu Tima Whatleyja?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Aaron Paul",
+        "Bryan Cranston",
+        "Bob Odenkirk",
+        "Giancarlo Esposito"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "guest-stars",
+        "cast"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-019",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Newmanova majka (spominje se, ali nikad ne vidi)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Babs",
+        "Estelle",
+        "Nema ime",
+        "Mrs. Newman"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "newman",
+        "family"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-020",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koja je marka automobila koju Kramer 'ispituje' koliko dugo može voziti na praznom rezervoaru?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Saab",
+        "Volvo",
+        "Sutphen",
+        "BMW"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer",
+        "cars"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-021",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove autor knjige 'The Coffee Table Book About Coffee Table Books'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Cosmo Kramer",
+        "Dr. Van Nostrand",
+        "H.E. Pennypacker",
+        "Art Vandelay"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer",
+        "books"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-016",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Junior Mint', kako se preziva pacijent nad kojim se vrši operacija?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Roy",
+        "Peterman",
+        "Gelman",
+        "Hoberman"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "episodes",
+        "minor-characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-022",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju pjesmu Jerry pjeva u kupaonici dok ga George prisluškuje u 'The Tape'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Downtown",
+        "The Way We Were",
+        "Wouldn't It Be Nice",
+        "I Like To Help"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "music"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-023",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Newmanov rođak koji mu pomaže s povratom boca u Michigan?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "On nema rođaka u toj priči",
+        "Mickey",
+        "Lomez",
+        "Bob Sacamano"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "newman",
+        "bottles"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-024",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je Georgeov fiktivni broj socijalnog osiguranja (prema lažima)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Nije nikad spomenut",
+        "On koristi Jerryjev",
+        "On ga zaboravi",
+        "Nema ga"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "george",
+        "identity"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C5-004",
+      "categoryId": 5,
+      "level": 3,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Kako se zove glumica koja je igrala Jerryjevu majku Helen u SAMO jednoj epizodi (prije nego je zamijenjena)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Liz Sheridan",
+        "Phil Bruns",
+        "Joan Rivers",
+        "Nije nikad zamijenjena"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "cast"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-017",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je 'vlasnik' ključa Jerryjevog stana u epizodi 'The Keys'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kramer",
+        "Elaine",
+        "George",
+        "Newman"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "apartment"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-003",
+      "categoryId": 4,
+      "level": 3,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koja je specifična marka satova koju Jerry nosi u kasnijim sezonama?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Rolex",
+        "Breitling Navitimer",
+        "Tag Heuer",
+        "Casio"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "fashion"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-025",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se preziva lik 'Crazy' Joe Davola?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Davola",
+        "Gelman",
+        "Reston",
+        "Mischke"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-018",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Library', koji je naslov knjige koju Jerry nije vratio od 1971.?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Tropic of Cancer",
+        "Tropic of Capricorn",
+        "Catcher in the Rye",
+        "Moby Dick"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry",
+        "books"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-026",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koje je ime Georgeovog šefa koji mu je dao otkaz jer je koristio njegov WC?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Mr. Levitan",
+        "Mr. Lippman",
+        "Mr. Morgan",
+        "Mr. Kruger"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "george",
+        "job"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-004",
+      "categoryId": 4,
+      "level": 3,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koja je marka sladoleda koju Jerry i ekipa jedu u epizodi 'The Non-Fat Yogurt'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "TCBY",
+        "Nema marke",
+        "Frogurt",
+        "Häagen-Dazs"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "food"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C5-005",
+      "categoryId": 5,
+      "level": 3,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji glumac igra lik 'The Wiz'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Toby Huss",
+        "Patrick Warburton",
+        "Jon Lovitz",
+        "John Gries"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "cast",
+        "guest-stars"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-019",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Kako se zove fiktivni časopis za koji George laže da radi u epizodi 'The Couch'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Vandelay Weekly",
+        "Glamour",
+        "The New Yorker",
+        "Reader's Digest"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george",
+        "lies"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-020",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Merv Griffin Show', koji slatkiš Kramer nudi gostima?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Junior Mints",
+        "Tic Tacs",
+        "Popcorn",
+        "Animal Crackers"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-027",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koja je marka piva koju Newman pije dok se skriva u kamionu u 'The Bottle Deposit'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Budweiser",
+        "Miller",
+        "Nema marke",
+        "Old Milwaukee"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "newman",
+        "drinks"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-021",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je nadimak za model aviona u kojem Jerry i Elaine zapnu u 'The Pilot'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Chunnel",
+        "Nema nadimak",
+        "The Plane",
+        "The Bird"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-005",
+      "categoryId": 4,
+      "level": 3,
+      "type": "quote",
+      "questionFormat": "text",
+      "question": "Koje je ime lika koji kaže legendarnu rečenicu: 'The sea was angry that day, my friends'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "George Costanza",
+        "Jerry Seinfeld",
+        "Cosmo Kramer",
+        "Elaine Benes"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "quotes"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-006",
+      "categoryId": 4,
+      "level": 3,
+      "type": "quote",
+      "questionFormat": "text",
+      "question": "U kojoj epizodi Jerry prvi put kaže 'Hello, Newman'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Revenge",
+        "The Suicide",
+        "The Apartment",
+        "The Pony Remark"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry",
+        "newman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-028",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju marku odjeće Kramer prodaje 'The J. Peterman Catalog' u ime gđe. Peterman?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Džempere",
+        "Odjeću gđe. Peterman",
+        "Kramerove košulje",
+        "Puddyjeve jakne"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "kramer",
+        "peterman"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-007",
+      "categoryId": 4,
+      "level": 3,
+      "type": "quote",
+      "questionFormat": "text",
+      "question": "Koja je zadnja stvar koju George kaže u seriji?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "See ya",
+        "Newman!",
+        "Was it the button?",
+        "I'm back!"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "finale"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-029",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "U kojoj godini je rođen George Costanza (prema podacima iz serije)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "1959",
+        "1954",
+        "1960",
+        "Nije specifično navedeno"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "george",
+        "age"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-030",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koji je 'vlasnik' psa Farfela?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Gavin Palone",
+        "Joel Rifkin",
+        "Jerry",
+        "Kramer"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-008",
+      "categoryId": 4,
+      "level": 3,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koju vrstu hrane Elaine nosi g. Pittu u epizodi 'The Chaperone'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Snickers",
+        "Čarape",
+        "Magazin",
+        "Olovke"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-031",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Georgeov 'partner' u krađi mramornog raženog kruha?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jerry",
+        "On ga je ukrao sam",
+        "Kramer",
+        "Newman"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C1-003",
+      "categoryId": 1,
+      "level": 3,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koje je ime lika 'The Soup Nazi' u stvarnom životu (lik u seriji)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Yev Kassem",
+        "Ali",
+        "Hassan",
+        "Mohammed"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "soup-nazi"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-032",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjeva djevojka koja ga 'prisiljava' da jede juhu u restoranu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bania",
+        "Katya",
+        "Sandi",
+        "Nema takve djevojke"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-022",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U kojoj epizodi Kramer dobiva svoj 'hustle' nadimak 'The K-Man'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Wig Master",
+        "The Barber",
+        "The Jimmy",
+        "The Strike"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-023",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koju vrstu automobila vozi Puddy u epizodi 'The Dealership'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "On ne vozi, on prodaje",
+        "Saab",
+        "Volvo",
+        "BMW"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "puddy"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-009",
+      "categoryId": 4,
+      "level": 3,
+      "type": "quote",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Marine Biologist', gdje George kaže da je dobio diplomu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Hofstra",
+        "Vassar",
+        "CUNY",
+        "On ne kaže"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-007",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koje je ime Jerryjevog odvjetnika u 'The Finale'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jackie Chiles",
+        "Nema drugog",
+        "Art Vandelay",
+        "On ga nema"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "finale"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-024",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Kako se zove Georgeova majka, Estelle, u epizodi 'The Contest'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Estelle",
+        "Helen",
+        "Mary",
+        "Mrs. Costanza"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-025",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je broj Jerryjevog stana u 'The Pilot' epizodi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "5A",
+        "3A",
+        "411",
+        "12"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C1-004",
+      "categoryId": 1,
+      "level": 3,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Što je zadnja stvar koju Kramer uradi u seriji?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Uđe u zatvorsku ćeliju",
+        "Popravi uho",
+        "Viče 'Jerry!'",
+        "Plesne"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "finale"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-026",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je broj registarske pločice na Jerryjevom BMW-u u epizodi 'The Statue'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "JVG-153",
+        "DBF-324",
+        "JRV-012",
+        "Nije vidljiva"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "details"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C1-005",
+      "categoryId": 1,
+      "level": 3,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koja je marka Jerryjevog 'Wizard' digitalnog rokovnika (stvarna marka u seriji)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sharp",
+        "Texas Instruments",
+        "Willard",
+        "Casio"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "tech",
+        "props"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-033",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koju specifičnu knjigu Elaine drži u rukama na posteru za 'The Peterman Reality Tour'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Tropic of Cancer",
+        "The White Album",
+        "Atlas Shrugged",
+        "Nema knjige"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "elaine",
+        "props"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-034",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Jerryjev ujak koji NIJE Leo i koji se pojavljuje samo u telefonskom pozivu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Uncle Mac",
+        "Uncle Barney",
+        "Uncle Mort",
+        "Uncle Phil"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "family"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-008",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji je 'vlasnik' stana 5E u Jerryjevoj zgradi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Newman",
+        "Kramer",
+        "Mrs. Zanfino",
+        "Silvio"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "setting",
+        "minor-characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C1-006",
+      "categoryId": 1,
+      "level": 3,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji je stvarni broj ceste na kojoj se Kramer i Newman utrkuju u 'The Bottle Deposit'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Route 17",
+        "I-95",
+        "Route 27",
+        "Highway 1"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "locations"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-035",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove sporedni lik koji radi u videoteci i Jerryju 'duguje' film?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Vincent",
+        "Seth",
+        "Ramon",
+        "Geno"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-036",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "U kojoj je sobi (broj) Georgeov ured u Yankeesima?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "102",
+        "114",
+        "Nema broja",
+        "4B"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george",
+        "yankees"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-037",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove fiktivna zemlja iz koje dolazi Jean-Paul, trkač maratona?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Trinidad i Tobago",
+        "Nigeria",
+        "Nije navedeno",
+        "Belgija"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-010",
+      "categoryId": 4,
+      "level": 3,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Što je pisalo na natpisu koji je George nosio u 'The Opposite' epizodi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "I'm a loser",
+        "Hire me",
+        "I'm with stupid",
+        "Nije nosio natpis"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "george",
+        "trick"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-027",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koju vrstu cigara Kramer puši s predsjednikom bejzbol kluba u epizodi 'The English Patient'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Dominikanske",
+        "Kubanske",
+        "Peruanske",
+        "Honduraške"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-038",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove pas gđe. Choate, žene kojoj je Jerry ukrao raženi kruh?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Rusty",
+        "Snowball",
+        "Little Jerry",
+        "Prickly Pete"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "characters",
+        "animals"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-039",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koliko je novca Jerry zapravo dobio od osiguranja za svoj uništeni BMW?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "12,000 $",
+        "22,000 $",
+        "8,000 $",
+        "Nije rečeno"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "money"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C5-006",
+      "categoryId": 5,
+      "level": 3,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Kako se zove Georgeov 'mentol' Tony u stvarnom životu (glumac)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Dan Cortese",
+        "Toby Huss",
+        "John Gries",
+        "Patrick Warburton"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "cast",
+        "guest-stars"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-040",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koja je bila prva linija teksta koju je Kramer izgovorio u seriji?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Got any meat?",
+        "Jerry!",
+        "Do you have any fruit?",
+        "Hello!"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer",
+        "pilot"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C5-007",
+      "categoryId": 5,
+      "level": 3,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "U kojoj epizodi se prvi put vidi Jerryjev tata Morty Seinfeld (glumio ga je Phil Bruns)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Pony Remark",
+        "The Stakeout",
+        "The Robbery",
+        "The Ex-Girlfriend"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "family"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-028",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koje je ime Jerryjevog susjeda koji mu je prijetio u epizodi 'The Revenge'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Vic",
+        "Harold",
+        "Newman",
+        "Silvio"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "characters"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C5-008",
+      "categoryId": 5,
+      "level": 3,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koja je bila Kramerova 'uloga' u filmu 'The Sandals'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "On nije bio u tom filmu",
+        "Statist",
+        "Glavni glumac",
+        "Nosač kave"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer",
+        "trick"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-041",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Georgeova 'najbolja prijateljica' iz epizode 'The Deal'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Elaine",
+        "Patrice",
+        "Sandi",
+        "Heidi"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-042",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koliko je George platio za svoj 'Jon Voight' auto?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "4,000 $",
+        "8,000 $",
+        "2,500 $",
+        "12,000 $"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george",
+        "money"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-043",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Kako se zove Elainein šef u 'Pendant Publishing'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Mr. Lippman",
+        "Mr. Pitt",
+        "Mr. Peterman",
+        "Mr. Kruger"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C4-011",
+      "categoryId": 4,
+      "level": 3,
+      "type": "object",
+      "questionFormat": "text",
+      "question": "Koji je naziv modela kabanice 'The Executive'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Beltless Trench",
+        "The Rain Master",
+        "The Seinfeld",
+        "Nema poseban naziv"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "jerry",
+        "fashion"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C5-009",
+      "categoryId": 5,
+      "level": 3,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Tko je bio 'The original' Jerryjev otac (glumac)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Barney Martin",
+        "Phil Bruns",
+        "Jerry Stiller",
+        "Larry David"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "cast"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-029",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koju marku piva pije Jerry u epizodi 'The Dog'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Hennigans",
+        "Budweiser",
+        "Nema marke",
+        "Miller"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "jerry",
+        "drinks"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C1-007",
+      "categoryId": 1,
+      "level": 3,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kako se zove grad u kojem se nalazila pekara s 'Mramornim raženim'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "New York",
+        "Brooklyn",
+        "Queens",
+        "Nije rečeno"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "locations"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-044",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koliko je koraka Elaine morala napraviti da bi dokazala 'Little Kicks' ples?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "10",
+        "Nije mjereno",
+        "3",
+        "Samo jedan"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "elaine"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C2-045",
+      "categoryId": 2,
+      "level": 3,
+      "type": "character",
+      "questionFormat": "text",
+      "question": "Koje je ime lika koji je prodao Georgeu 'odijelo koje šumi'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Vic",
+        "Rudy",
+        "Kenny",
+        "Bania"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "george"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C1-008",
+      "categoryId": 1,
+      "level": 3,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji je 'vlasnik' konja Rusty?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kramer",
+        "Newman",
+        "Joe",
+        "Nije rečeno"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "animals"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C3-030",
+      "categoryId": 3,
+      "level": 3,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što je Kramer koristio kao 'balzam' u 'The Beach' epizodi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Ulje",
+        "Sok",
+        "Pijesak",
+        "Vodu"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "kramer"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L3-C1-009",
+      "categoryId": 1,
+      "level": 3,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koja je marka Jerryjevog 'Wizard' sata?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Sharp",
+        "Texas Instruments",
+        "Willard",
+        "Casio"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "tech"
+      ],
+      "sourceRef": "Migrated from legacy questions_v1.json",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-007",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kako se zove poznata izreka lika The Soup Nazi kada odbija uslužiti kupca?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "No food for you!",
+        "Get out of my line!",
+        "No soup for you!",
+        "Next in line!"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "basics",
+        "quotes"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-008",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji lik redovito 'eksplozivno' ili 'uklizavajući' ulazi kroz Jerryjeva vrata?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "George",
+        "Elaine",
+        "Newman",
+        "Kramer"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "basics",
+        "kramer"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-009",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koja je Jerryjeva profesija u seriji?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Glumac",
+        "Stand-up komičar",
+        "Novinar",
+        "Pisac"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "jerry"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-010",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Tko je poštar koji živi u istoj zgradi kao i Jerry te mu je zakleti neprijatelj?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bania",
+        "Mickey",
+        "Newman",
+        "Peterman"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "basics",
+        "newman"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-011",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kako se obično opisuje serija Seinfeld u popularnoj kulturi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Serija o prijateljstvu",
+        "Serija o New Yorku",
+        "Serija o ljubavi",
+        "Serija o ničemu"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "basics",
+        "meta"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-012",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Tko su Georgeovi vrlo glasni i neurotični roditelji?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Morty i Helen",
+        "Frank i Estelle",
+        "Leo i Stella",
+        "Arthur i Susan"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "george",
+        "family"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-013",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Tko je stvorio seriju Seinfeld zajedno sa samim Jerryjem Seinfeldom?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Larry David",
+        "Jason Alexander",
+        "Garry Marshall",
+        "Chuck Lorre"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "basics",
+        "meta"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-014",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koju vrstu hrane Jerry najviše voli jesti (posebno za doručak), držeći police u kuhinji pune raznih vrsta?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Palačinke",
+        "Žitarice",
+        "Voće",
+        "Tost"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "jerry",
+        "food"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-015",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Gdje se glavna četvorka najčešće druži i jede kada nisu u Jerryjevom stanu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "U kafiću Central Perk",
+        "U Monk's Dineru",
+        "U Soup Kitchen",
+        "U kineskom restoranu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "setting"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-016",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Što Elaine najčešće napravi osobi pored sebe kad se jako iznenadi ili šokira dobrom viješću?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Počne plakati",
+        "Gurne ju s obje ruke i vikne 'Get out!'",
+        "Zagrlit će je snažno",
+        "Padne u nesvijest"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "elaine"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-017",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kako se zove 'praznik za nas ostale' koji je izmislio Georgeov otac, Frank Costanza?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kwanzaa",
+        "Festivus",
+        "Costanzukkah",
+        "Grievance Day"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "culture"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-018",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koliko je prijatelja u 'glavnoj' grupi oko koje se vrti svaka epizoda?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Tri",
+        "Četiri",
+        "Pet",
+        "Šest"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-019",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kojim karakterističnim i hladnim tonom Jerry uvijek pozdravlja svog neprijatelja poštara?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "'Goodbye, Newman'",
+        "'Hello, Kramer'",
+        "'Hi, mailman'",
+        "'Hello, Newman'"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "basics",
+        "jerry",
+        "quotes"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-020",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "U kojem američkom gradu se odvija glavna radnja serije Seinfeld?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Los Angeles",
+        "New York",
+        "Boston",
+        "Chicago"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "setting"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C1-021",
+      "categoryId": 1,
+      "level": 1,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Tko od likova ima najbizarnije poduzetničke ideje i sheme za brzo bogaćenje tijekom serije?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jerry",
+        "George",
+        "Elaine",
+        "Kramer"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "basics",
+        "kramer"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-009",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kojim lažnim pseudonimom se George najčešće služi kad laže ljudima da je važan arhitekt ili biznismen?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "H.E. Pennypacker",
+        "Art Vandelay",
+        "Kel Varnsen",
+        "Bob Sacamano"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "george",
+        "alias"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-010",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji pseudonim Kramer koristi kad se pokušava pretvarati da je doktor?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Dr. Martin van Nostrand",
+        "Dr. Cosmo",
+        "Dr. Reston",
+        "Dr. Whatley"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "basics",
+        "kramer",
+        "alias"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-011",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Za koji slavni profesionalni bejzbolski klub George Costanza godinama radi?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "New York Mets",
+        "New York Yankees",
+        "Boston Red Sox",
+        "Chicago Cubs"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "george",
+        "job"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-012",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kojom poznatom frazom George često brani svoje ispade kada primijeti da netko krši temeljna društvena pravila?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "\"We're living in a society!\"",
+        "\"Serenity now!\"",
+        "\"That's a shame.\"",
+        "\"These pretzels are making me thirsty!\""
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "basics",
+        "george",
+        "quotes"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-013",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koja slavna fraza u seriji služi za preskakanje dosadnih i dugačkih detalja priče, cenzurirajući pritom i neprikladne trenutke?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "\"Not that there's anything wrong with that\"",
+        "\"Giddy up\"",
+        "\"Yada, yada, yada\"",
+        "\"No soup for you\""
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "basics",
+        "quotes",
+        "culture"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-014",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koliko službenih sezona ukupno ima serija Seinfeld?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "basics",
+        "meta"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-015",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koja televizijska mreža je bila dom za Seinfelda i originalno prenosila sve epizode premijerno u SAD-u?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "CBS",
+        "ABC",
+        "Fox",
+        "NBC"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "basics",
+        "meta"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-016",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kako stoji u naslovu fiktivnog filma kojeg prijatelji uvijek pokušavaju ići pogledati, a opisuje se kao 'erotsko putovanje od Milana do Minska'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Checkmate",
+        "Prognosis Negative",
+        "Rochelle, Rochelle",
+        "Sack Lunch"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "basics",
+        "culture"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-017",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Za koji katalog i osebujnog šefa Elaine radi dugi niz sezona, putujući po svijetu da pronalazi 'priče' za odjeću?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Pendant Publishing",
+        "J. Peterman",
+        "Mr. Pitt",
+        "Kramerica Industries"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "elaine",
+        "job"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-018",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji je Jerryjev najveći svakodnevni strah i opsesija zbog koje je vrlo izbirljiv tko ulazi u njegov stan?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Visina",
+        "Psi (Klaustrofobija)",
+        "Klice i nečistoća (Germofobija)",
+        "Letenje avionom"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "basics",
+        "jerry"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-019",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Što je jedna od Jerryjevih 'najgorih' karakternih osobina, posebno izražena kod pronalaska mana na svojim djevojkama?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Vrlo je cicija (škrtac)",
+        "Traži apsurdne sitne razloge da prekine s njima",
+        "Laže o svojim prihodima",
+        "Igra previše videoigrica umjesto da bude s njima"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "jerry"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-020",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koliko je godina trajao Jerryjev 'rekord' nepovraćanja (The Vomit Streak) prije famozne epizode s crno-bijelim kolačićem?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Oko 4 godine",
+        "Oko 9 godina",
+        "Nešto više od 13 godina",
+        "Gotovo 20 godina"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "basics",
+        "jerry"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-021",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koji lik s vremenom postaje poštar i vrlo nesretan zbog svog posla kojim je primoran obavljati dnevnu rutinu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kramer",
+        "Newman",
+        "George",
+        "Bania"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "newman",
+        "job"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-022",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Koje je rješenje za smirivanje napetosti kod Costanza obitelji koje stalno uzvikuju umjesto da ga zapravo prakticiraju?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "\"Hoochie Mama!\"",
+        "\"Serenity Now!\"",
+        "\"Take a breath!\"",
+        "\"Peace on Earth!\""
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "george",
+        "quotes",
+        "family"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C1-023",
+      "categoryId": 1,
+      "level": 2,
+      "type": "concept",
+      "questionFormat": "text",
+      "question": "Kojeg lika glumi glumac Wayne Knight u Seinfeldu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Mickey Abbott",
+        "Newman",
+        "Tim Whatley",
+        "Kenny Bania"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "basics",
+        "meta",
+        "newman"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-003",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji glumac glumi ulogu Georgea Costanze?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jerry Seinfeld",
+        "Larry David",
+        "Jason Alexander",
+        "Michael Richards"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "actors",
+        "george"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-004",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koja poznata glumica tumači ulogu Elaine Benes?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Courtney Cox",
+        "Julia Louis-Dreyfus",
+        "Teri Hatcher",
+        "Jane Leeves"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "actors",
+        "elaine"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-005",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji je komičar ko-kreator serije 'Seinfeld' zajedno s Jerryjem Seinfeldom?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Ricky Gervais",
+        "Conan O'Brien",
+        "Larry David",
+        "Jason Alexander"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "production"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-006",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Na kojoj se američkoj televizijskoj mreži serija 'Seinfeld' originalno i premijerno prikazivala?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "ABC",
+        "CBS",
+        "FOX",
+        "NBC"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "meta",
+        "network"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-007",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji glumac glumi ekscentričnog susjeda Cosma Kramera?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Michael Richards",
+        "Wayne Knight",
+        "Jerry Stiller",
+        "John O'Hurley"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "meta",
+        "actors",
+        "kramer"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-008",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Kako se zvala posebna, nulta pilot epizoda Seinfelda prije nego što je serija dobila prepoznatljivo kratko ime?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "The Jerry Show",
+        "Stand-Up Guy",
+        "The New York Stories",
+        "The Seinfeld Chronicles"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "meta",
+        "production"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-009",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Na kome je velikim dijelom baziran lik neurotičnog Georgea Costanze?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Na Jasonu Alexanderu",
+        "Na ocu Jerryja Seinfelda",
+        "Na ko-kreatoru Larryju Davidu",
+        "Na Newmanu"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "writing"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-010",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Iz kojeg stvarnog izvora su scenaristi (uključujući Jerryja i Larryja) najčešće vukli ideje za bizarne epizodne zaplete?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Iz starih stripova",
+        "Iz svojih stvarnih međuljudskih i životnih situacija",
+        "Iz popularnih filmova tog vremena",
+        "Prepuštali su publici da piše ideje"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "writing"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-011",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Tko je stalni glumac koji utjelovljuje Jerryjevog poštarskog neprijatelja Newmana?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jon Favreau",
+        "Wayne Knight",
+        "Danny DeVito",
+        "John Goodman"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "actors",
+        "newman"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-012",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji je glavni format kratkih komičnih segmenata koji se često prikazuju na počecima ranijih epizoda?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Animirani crtići",
+        "Jerry upućuje ljude u pravila ponašanja u uredu",
+        "Jerryjev pravi stand-up nastup pred publikom",
+        "Glazbeni spotovi"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "format"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-013",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Tko je posudio glas Georgeovom šefu iz Yankeesa, Georgeu Steinbrenneru, koji se uvijek prikazuje isključivo s leđa?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Pravi George Steinbrenner",
+        "Jerry Seinfeld",
+        "Larry David",
+        "Jason Alexander"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "actors"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-014",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Iako je radnja serije smještena zgradama Manhattana u New Yorku, gdje je Seinfeld u stvarnosti primarno sniman?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "U Chicagu",
+        "Na stvarnim ulicama New Yorka",
+        "U studijima u Los Angelesu",
+        "U Torontu"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "production"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-015",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Lik Kramer nastao je na temelju...",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Stričevića Jerryja Seinfelda",
+        "Izmišljene basne o konju",
+        "Pravog susjeda Larryja Davida, Kennyja Kramera",
+        "Taksista iz New Yorka"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "production",
+        "kramer"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-016",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Zašto fanovi serije i forumaši vole naglašavati tlocrt Jerryjevog televizijskog stana?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jer bi u stvarnom svijetu kuhinja preklapala kupaonicu",
+        "Jer kutnici hodnika ispred stana prkose zakonima fizike i rasporedu prostorija",
+        "Jer stan nikad nije imao WC",
+        "Jer su vrata otvarala na obrnutu stranu"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "set-design"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C5-017",
+      "categoryId": 5,
+      "level": 1,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji popularni kulturni DC junak je uvijek vizualno prisutan negdje u Jerryjevom stanu (najčešće u obliku figure ili magneta)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Batman",
+        "Flash",
+        "Wonder Woman",
+        "Superman"
+      ],
+      "correctIndex": 3,
+      "tags": [
+        "meta",
+        "set-design"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-003",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji budući glavni glumac (otac iz 'Malcolm u sredini' i Walter White) je kao gost utjelovio zubara Tima Whatleyja?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Bob Odenkirk",
+        "Aaron Paul",
+        "Bryan Cranston",
+        "Kevin James"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "guest-stars"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-004",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji je od četiri glavna glumca bio jedini koji za vrijeme emitiranja nikada nije osvojio prestižnu nagradu Emmy za svoju ulogu u 'Seinfeldu'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Michael Richards",
+        "Jason Alexander",
+        "Julia Louis-Dreyfus",
+        "Jerry Seinfeld"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "awards"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-005",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koje su strogo pravilo ('mantru') postavili Larry David i Jerry za scenarije o ponavljajućim likovima?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "No happy endings, no tears",
+        "No hugging, no learning (Bez grljenja, bez učenja novih lekcija)",
+        "Always laugh track, never silent",
+        "Everybody must pay"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "writing"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-006",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Zašto slavna glazbena bas-tema (špica) autora Jonathana Wolffa na početku svake epizode zvuči lagano drugačije u tempu?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jer su pogrešno puštali vrpcu",
+        "Zato što je Wolff glazbu prilagođavao jedinstvenom ritmu Jerryjevog glasa i konkretnog monologa u toj specifičnoj epizodi",
+        "Jer su svake godine unajmljivali drugog basista",
+        "Jer ju je Michael Richards redovito uživo izvodio iza kamere"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "music"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-007",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Kako se izvorno zvao konobaricin ženski lik u nultoj pilot epizodi koji je obavljao funkciju 'prijateljice' prije uvođenja lika Elaine?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Claire",
+        "Sarah",
+        "Mary",
+        "Susan"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "meta",
+        "production"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-008",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji proslavljeni komičar i glumac je u kasnijim sezonama unajmljen da preuzme ulogu oca Georgea Costanze (Arthur / Frank Costanza)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jerry Stiller",
+        "Don Rickles",
+        "Mel Brooks",
+        "Carl Reiner"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "meta",
+        "actors",
+        "family"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-009",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koja je glumica iz serije 'Prijatelji' (Friends) utjelovila ženu koja tješi Jerryja i koja je lažno tvrdila da mu je supruga ('The Wife' epizoda)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jennifer Aniston",
+        "Lisa Kudrow",
+        "Courteney Cox",
+        "Maggie Wheeler"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "guest-stars"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-010",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Zašto iz serije naglo obrisana i 'ubijena' Susan Ross, Georgeova zaručnica (u sezoni 7)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Zato što je to bila dugoročna romantična ideja",
+        "Zato što su glumci (uglavnom Jason Alexander) imali muke igrati scene s glumicom Heidi Swedberg jer s njom komično 'nisu stvorili kemiju'",
+        "Zato što se glumica htjela vratiti kazalištu",
+        "Zato što je glumici istekao ugovor"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "production"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-011",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koliko je NBC navodno ponudio Jerryju Seinfeldu PO JEDNOJ EPIZODI nevjerojatnih razmjera za novu izmišljenu 10. sezonu (što je Jerry odbio)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Pola milijuna dolara",
+        "2 milijuna dolara",
+        "5 milijuna dolara",
+        "10 milijuna dolara"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "production"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-012",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Soup Nazi', vlasnik restorana Al Yeganeh zabranjuje Jerryu dolazak jer se uvrijedio kako je ekraniziran. Koja slavna fraza potječe iz te epizode?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "No change for you!",
+        "No soup for you!",
+        "You got no soup!",
+        "Out of my kitchen!"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "real-life"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-013",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Tijekom treće sezone serije, koja je glavna glumica bila skrivana iza silnih kutija, namještaja i velikih kaputa jer je u stvarnosti bila trudna?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Heidi Swedberg (Susan)",
+        "Julia Louis-Dreyfus (Elaine)",
+        "Jane Leeves (Marla)",
+        "Estelle Harris (Estelle) "
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "production"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-014",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Koji komičarski problem / tehničku nesavršenost možete vrlo često vidjeti na Jerryju Seinfeldu usred scena dok drugi izgovaraju viceve?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Prekida ih usred rečenice",
+        "Često lomi karakter lica ('smirks') boreći se suzdržati od teškog smijeha pred kamerama",
+        "Uvijek je sniman samo sa desne strane kako bi prikrio osmijeh",
+        "Plače od glume kolega"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "acting"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-015",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Zaštitni i ekscentrični potez ulaska u stan Kramera, kojeg pred kraj izvede Michael Richards, na glumačkoj audiciji je stvorio?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Zastoj snimanja zbog probijanja vrata",
+        "Razlog zašto su mu cipele morale uvijek biti barem broj prevelike, odnosno, sklizali bi se ukleti podovi",
+        "Njega samog na audiciji kako bi privukao glumačku pozornost",
+        "Larry David mu je to rekao u uputama"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "acting",
+        "kramer"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-016",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Nijedan član glavne muške postave nije u startu očekivao da će serija potrajati jer je rano ljeto premijere. Na što se radni naslov emisije kasnije preimenovao da izbjegne sličnost sa drugom serijom (The Marshall Chronicles)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Seinfeld's Show",
+        "Jerry",
+        "Seinfeld",
+        "New York Laughs"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "meta",
+        "production"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L2-C5-017",
+      "categoryId": 5,
+      "level": 2,
+      "type": "meta",
+      "questionFormat": "text",
+      "question": "Tko je američki pjevač i umjetnik poznat po svojem pojavljivanju (i tužbi) oko reference na njegovo ime u epizodi s Elaine (zvala ga je Puddy, ali ovo je o The Velvet Fog)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Tony Bennett",
+        "Mel Tormé",
+        "Frank Sinatra",
+        "Neil Diamond"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "meta",
+        "guest-stars"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-009",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Puffy Shirt', koji neobični odjevni predmet Jerry nesvjesno pristane nositi na televizijskom gostovanju jer nije razumio Kramerovu djevojku (the 'Low Talker')?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Klaunovsko odijelo",
+        "Gusarsku košulju s volanima",
+        "Sombrero šešir",
+        "Džemper od kašmira s crvenom točkom"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes",
+        "jerry",
+        "clothing"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-010",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "O čemu se radi i koji je ključni zaplet kultne epizode 'The Chinese Restaurant'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Svađaju se oko plaćanja računa",
+        "George radi kao konobar",
+        "Čekaju cijelu epizodu na stol za večeru i nikako ne uspijevaju",
+        "Kramer otvara svoj kineski restoran"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "episodes",
+        "classic",
+        "setting"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-011",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji je jedini problem oko kojeg se vrti cijela epizoda 'The Parking Garage'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Jerryu ukradu auto",
+        "George slučajno razbije tuđi auto",
+        "Pokušavaju se sjetiti gdje su parkirali auto u velikom trgovačkom centru",
+        "Elaine udari susjedov auto u garaži"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "episodes",
+        "classic"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-012",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Marine Biologist', što lažni morski biolog George epski izvuče iz dišnog otvora nasukanog kita na kraju epizode?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Kramerovu lopticu za golf",
+        "Tenisicu",
+        "Plastičnu vrećicu",
+        "Mramorni raženi kruh"
+      ],
+      "correctIndex": 0,
+      "tags": [
+        "episodes",
+        "george",
+        "kramer",
+        "classic"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-013",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji se poznati nesporazum dogodi u epizodi 'The Outing', zbog kojeg Jerry i George cijelu epizodu ponavljaju 'Ne da ima išta loše u tome'?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Optuženi su da su ukrali knjigu iz knjižnice",
+        "Novinarka u članku greškom zaključi da su oni u tajnoj gay vezi",
+        "Uhvaćeni su kako jedu iz smeća",
+        "Optuženi su da ne plaćaju porez"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes",
+        "george",
+        "jerry",
+        "quotes"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-014",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Pen', koji običan predmet Jerry uzima od oca Jacka Klompusa na Floridi, što neočekivano izazove ogromnu i apsurdnu dramu u cijeloj zajednici?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Običan crni kišobran",
+        "Posebnu 'astronautsku' olovku koja piše i naopako",
+        "Daljinski upravljač za klimu",
+        "Ključeve od Cadillaca"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes",
+        "jerry",
+        "florida"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-015",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U epizodi 'The Fusilli Jerry', od čega Kramer odluči izraditi personaliziranu minijaturnu figuricu Jerryja (koja na kraju donese velike probleme Franku Costanzi)?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Od dasaka s plaže",
+        "Od stare žvakaće gume",
+        "Od tjestenine marke Fusilli",
+        "Od iskorištenog sapuna"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "episodes",
+        "kramer",
+        "props"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-016",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Što se dogodi Georgeu nakon nedavnog kupanja u jako hladnoj vodi bazena u epizodi 'The Hamptons', zbog čega biva fatalno osramoćen pred djevojkom?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Dobije ozbiljnu prehladu i izgubi glas",
+        "Kupaće hlače mu postanu prozirne",
+        "Dogodi mu se obrambeno 'skupljanje' organa (Shrinkage) što ona krivo protumači",
+        "Ukradu mu svu odjeću pa mora hodati gol"
+      ],
+      "correctIndex": 2,
+      "tags": [
+        "episodes",
+        "george"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-017",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "U poznatoj epizodi 'The Soup Nazi', koje je jedino važno pravilo da biste uspješno dobili naručenu porciju juhe od strogog vlasnika?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Morate se uljudno nakloniti prije plaćanja",
+        "Morate naručiti iz glave, pomaknuti se lijevo, uzeti u tišini i otići",
+        "Ne smijete ući s kišobranom niti mokrih cipela",
+        "Morate ostaviti točno izračunatu napojnicu od 20%"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes",
+        "soup-nazi",
+        "rules"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    },
+    {
+      "id": "L1-C3-018",
+      "categoryId": 3,
+      "level": 1,
+      "type": "episode",
+      "questionFormat": "text",
+      "question": "Koji razlog George navodi kao ispriku kada izgura djecu, žene i starce pokušavajući prvi panično pobjeći iz kuće uslijed malog požara na dječjem rođendanu ('The Fire')?",
+      "codeLanguage": "",
+      "codeSnippet": "",
+      "choices": [
+        "Tvrdio je da nije znao da je to zbilja požar",
+        "Opravdao se govoreći da je zapravo 'čistio put' i vodio ih na sigurno kao pravi heroj",
+        "Izjavio je da je imao hitan proljev u krivo vrijeme",
+        "Rekao je da se prepao klauna Erica"
+      ],
+      "correctIndex": 1,
+      "tags": [
+        "episodes",
+        "george",
+        "coward"
+      ],
+      "sourceRef": "Generated by AI",
+      "migrationNotes": []
+    }
+  ],
+  "removedDuplicates": [
+    {
+      "oldId": "L1-040",
+      "reason": "Duplicate of L1-003"
+    },
+    {
+      "oldId": "L2-015",
+      "reason": "Duplicate of L1-003"
+    },
+    {
+      "oldId": "L3-044",
+      "reason": "Duplicate of L3-015"
+    },
+    {
+      "oldId": "L5-017",
+      "reason": "Duplicate of L4-048"
+    },
+    {
+      "oldId": "L6-033",
+      "reason": "Duplicate of L3-048"
+    },
+    {
+      "oldId": "L7-002",
+      "reason": "Duplicate of L5-002"
+    },
+    {
+      "oldId": "L7-037",
+      "reason": "Duplicate of L3-048"
+    },
+    {
+      "oldId": "L7-039",
+      "reason": "Duplicate of L5-027"
+    },
+    {
+      "oldId": "L7-040",
+      "reason": "Duplicate of L5-028"
+    },
+    {
+      "oldId": "L7-041",
+      "reason": "Duplicate of L5-029"
+    },
+    {
+      "oldId": "L7-042",
+      "reason": "Duplicate of L5-031"
+    },
+    {
+      "oldId": "L7-043",
+      "reason": "Duplicate of L5-032"
+    },
+    {
+      "oldId": "L7-044",
+      "reason": "Duplicate of L5-033"
+    },
+    {
+      "oldId": "L7-045",
+      "reason": "Duplicate of L5-034"
+    },
+    {
+      "oldId": "L7-046",
+      "reason": "Duplicate of L5-035"
+    },
+    {
+      "oldId": "L7-048",
+      "reason": "Duplicate of L5-037"
+    },
+    {
+      "oldId": "L7-049",
+      "reason": "Duplicate of L5-038"
+    },
+    {
+      "oldId": "L7-050",
+      "reason": "Duplicate of L5-039"
+    }
+  ]
+}
